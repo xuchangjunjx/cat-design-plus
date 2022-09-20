@@ -1,18 +1,44 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div>
+      <Button :type="type" v-for="type in types" :key="type">{{ type }}</Button>
+    </div>
+    <div>
+      <Button :type="type" circle v-for="type in types" :key="type">{{
+        type
+      }}</Button>
+    </div>
+    <div>
+      <Button :type="type" ghost circle v-for="type in types" :key="type">{{
+        type
+      }}</Button>
+    </div>
+    <div>
+      <Button disabled :type="type" circle v-for="type in types" :key="type">{{
+        type
+      }}</Button>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Button, { types } from "@/ui/button/button.vue";
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    Button
   },
+  data() {
+    return {
+      types
+    };
+  }
 };
 </script>
+<style lang="less" scoped>
+.home {
+  div {
+    padding: 1rem 0;
+  }
+}
+</style>
