@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lint-report": "eslint --format html --ext .js,.vue src -o eslint/report.html",
-    "analyz": "npm_config_report=true vue-cli-service build"
+    "analyz": "npm_config_report=true vue-cli-service build",
+    "cat-design": "npm_build_lib=true vue-cli-service build --target lib --name cat-design --formats umd ./src/ui/index.js --inline-vue --dest cat-design"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -25,6 +26,7 @@
     "autoprefixer": "^8.0.0",
     "babel-eslint": "^10.1.0",
     "bulma": "^0.9.4",
+    "cat-design-plus": "^1.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",

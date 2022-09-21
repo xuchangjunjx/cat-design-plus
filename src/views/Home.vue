@@ -27,6 +27,11 @@
 </template>
 <script>
 import { Button } from "@/ui";
+// import { Button } from "../../cat-design/cat-design.umd";
+// import { Button } from "$cat-design/dist/cat-design.esm";
+// import { Button } from "cat-design";
+// import { Button } from "cat-design-plus";
+
 export default {
   components: {
     SmButton: Button

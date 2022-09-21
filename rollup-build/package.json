@@ -1,0 +1,27 @@
+{
+  "name": "cat-design-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cat-design.umd.js",
+  "module": "dist/cat-design.esm.js",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js"
+  },
+  "keywords": [
+    "vue",
+    "ui",
+    "bulma"
+  ],
+  "author": "xubowen",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.79.0",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "^5.0.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}
