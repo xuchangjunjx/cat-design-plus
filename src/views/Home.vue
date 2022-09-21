@@ -1,44 +1,45 @@
 <template>
-  <div class="home">
-    <div>
+  <div>
+    <div class="buttons">
       <Button :type="type" v-for="type in types" :key="type">{{ type }}</Button>
     </div>
-    <div>
-      <Button :type="type" circle v-for="type in types" :key="type">{{
-        type
-      }}</Button>
+    <div class="buttons">
+      <Button disabled :type="type" v-for="type in types" :key="type"
+        >disabled</Button
+      >
     </div>
-    <div>
-      <Button :type="type" ghost circle v-for="type in types" :key="type">{{
-        type
-      }}</Button>
+    <div class="buttons">
+      <Button outline :type="type" v-for="type in types" :key="type"
+        >outline</Button
+      >
     </div>
-    <div>
-      <Button disabled :type="type" circle v-for="type in types" :key="type">{{
-        type
-      }}</Button>
+    <div class="buttons">
+      <Button round :type="type" v-for="type in types" :key="type"
+        >round</Button
+      >
+    </div>
+    <div class="buttons">
+      <sm-button loading :type="type" v-for="type in types" :key="type"
+        >loading</sm-button
+      >
     </div>
   </div>
 </template>
-
 <script>
-import Button, { types } from "@/ui/button/button.vue";
+import { Button } from "@/ui";
 export default {
-  name: "Home",
   components: {
-    Button
+    SmButton: Button
+  },
+  methods: {
+    clicked() {
+      console.log("clicked");
+    }
   },
   data() {
     return {
-      types
+      types: Button.types
     };
   }
 };
 </script>
-<style lang="less" scoped>
-.home {
-  div {
-    padding: 1rem 0;
-  }
-}
-</style>

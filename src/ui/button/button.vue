@@ -1,44 +1,60 @@
 <template>
-  <button :class="classes" @click="handleClick" :disabled="disabled">
-    <!--没有text就用default slot-->
+  <button :class="classes" :disabled="disabled" @click="handleClick">
     <slot>{{ text }}</slot>
   </button>
 </template>
 <script>
-import "./button.less";
-// Vue组件内是可以export多个东西的，但是只能export一个default
-export const types = ["primary", "success", "warning", "error", "info"];
+// https://bulma.io/documentation/elements/button/
+export const types = [
+  "primary",
+  "success",
+  "warning",
+  "danger",
+  "info",
+  "link",
+  "dark"
+];
+export const sizes = ["small", "normal", "medium", "large"];
 export default {
+  name: "sm-button",
   props: {
-    text: String,
+    // 按钮文字 可以用slot覆盖
+    text: [String, Number],
+    // 按钮大小
+    size: {
+      type: String,
+      default: "normal",
+      validator(v) {
+        return sizes.includes(v);
+      }
+    },
+    //  按钮类型
     type: {
       type: String,
-      default() {
-        return "default";
-      },
+      default: "primary",
       validator(v) {
         return types.includes(v);
       }
     },
-    // 圆角按钮
-    circle: Boolean,
-    // 按钮大小
-    size: String,
-    // 禁用按钮
+    // 禁用状态
     disabled: Boolean,
-    // 幽灵按钮
-    ghost: Boolean
+    // 边框按钮
+    outline: Boolean,
+    // 圆角按钮
+    round: Boolean,
+    // loading状态
+    loading: Boolean
   },
   computed: {
+    // 按钮的class
     classes() {
       return {
         button: true,
-        [`button-${this.type}`]: this.type,
-        "button-ghost": this.ghost,
-        circle: this.circle,
-        [`button-${this.size}`]: this.size,
-        "button-icon":
-          this.icon || this.aftericon ? this.slots.length > 1 : false
+        "is-loading": this.loading,
+        "is-outlined": this.outline,
+        "is-rounded": this.round,
+        [`is-${this.type}`]: this.type,
+        [`is-${this.size}`]: this.size
       };
     }
   },
