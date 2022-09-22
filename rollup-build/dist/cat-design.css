@@ -10280,7 +10280,3 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: hsl(0deg, 0%, 98%);
   padding: 3rem 1.5rem 6rem;
 }
-
-.button.is-warning {
-  color: #fff;
-}
