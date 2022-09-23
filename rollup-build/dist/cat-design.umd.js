@@ -9,7 +9,7 @@
   var Vue__default = /*#__PURE__*/_interopDefaultLegacy(Vue);
 
   var clickout = {
-    name: "click-out",
+    name: "clickout",
 
     // eslint-disable-next-line
     bind(el, binding, vnode) {
@@ -67,7 +67,7 @@
     "dark"
   ];
   const sizes = ["small", "normal", "medium", "large"];
-  var script$1 = {
+  var script$4 = {
     name: "sm-button",
     props: {
       // 按钮文字 可以用slot覆盖
@@ -193,10 +193,10 @@
   }
 
   /* script */
-  const __vue_script__$1 = script$1;
+  const __vue_script__$4 = script$4;
 
   /* template */
-  var __vue_render__$1 = function () {
+  var __vue_render__$3 = function () {
     var _vm = this;
     var _h = _vm.$createElement;
     var _c = _vm._self._c || _h;
@@ -215,17 +215,17 @@
       2
     )
   };
-  var __vue_staticRenderFns__$1 = [];
-  __vue_render__$1._withStripped = true;
+  var __vue_staticRenderFns__$3 = [];
+  __vue_render__$3._withStripped = true;
 
     /* style */
-    const __vue_inject_styles__$1 = undefined;
+    const __vue_inject_styles__$4 = undefined;
     /* scoped */
-    const __vue_scope_id__$1 = undefined;
+    const __vue_scope_id__$4 = undefined;
     /* module identifier */
-    const __vue_module_identifier__$1 = undefined;
+    const __vue_module_identifier__$4 = undefined;
     /* functional template */
-    const __vue_is_functional_template__$1 = false;
+    const __vue_is_functional_template__$4 = false;
     /* style inject */
     
     /* style inject SSR */
@@ -234,13 +234,13 @@
     
 
     
-    const __vue_component__$1 = /*#__PURE__*/normalizeComponent(
-      { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
-      __vue_inject_styles__$1,
-      __vue_script__$1,
-      __vue_scope_id__$1,
-      __vue_is_functional_template__$1,
-      __vue_module_identifier__$1,
+    const __vue_component__$4 = /*#__PURE__*/normalizeComponent(
+      { render: __vue_render__$3, staticRenderFns: __vue_staticRenderFns__$3 },
+      __vue_inject_styles__$4,
+      __vue_script__$4,
+      __vue_scope_id__$4,
+      __vue_is_functional_template__$4,
+      __vue_module_identifier__$4,
       false,
       undefined,
       undefined,
@@ -268,7 +268,7 @@
   //
   //
 
-  var script = {
+  var script$3 = {
     props: {
       value: Boolean,
       title: String,
@@ -362,10 +362,10 @@
   }
 
   /* script */
-  const __vue_script__ = script;
+  const __vue_script__$3 = script$3;
 
   /* template */
-  var __vue_render__ = function () {
+  var __vue_render__$2 = function () {
     var _vm = this;
     var _h = _vm.$createElement;
     var _c = _vm._self._c || _h;
@@ -415,41 +415,41 @@
       ]),
     ])
   };
-  var __vue_staticRenderFns__ = [];
-  __vue_render__._withStripped = true;
+  var __vue_staticRenderFns__$2 = [];
+  __vue_render__$2._withStripped = true;
 
     /* style */
-    const __vue_inject_styles__ = function (inject) {
+    const __vue_inject_styles__$3 = function (inject) {
       if (!inject) return
       inject("data-v-1fffc050_0", { source: ".modal[data-v-1fffc050] {\n  display: block;\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.2s linear;\n}\n.modal.is-active[data-v-1fffc050] {\n  opacity: 1;\n  z-index: 40;\n  transition: all 0.2s linear;\n}\n.modal.is-active .modal-background[data-v-1fffc050] {\n  transition: all 0.2s linear;\n  background-color: rgba(35, 45, 65, 0.7);\n}\n.modal.is-active .modal-card[data-v-1fffc050] {\n  transition: all 0.2s linear;\n  transform: translateY(0px);\n}\n.modal-background[data-v-1fffc050] {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  transition: all 0.2s linear;\n  background-color: transparent;\n}\n.modal-card[data-v-1fffc050] {\n  transition: all 0.2s linear;\n  transform: translateY(-80px);\n}\n.modal-card-foot div[data-v-1fffc050] {\n  flex: 1;\n  justify-content: right;\n}\n.modal-card-body[data-v-1fffc050] {\n  text-align: left;\n}\n.modal-card-head[data-v-1fffc050], .modal-card-foot[data-v-1fffc050] {\n  background-color: #fff;\n  border-color: #eff3f7;\n}\n.modal-card-title[data-v-1fffc050] {\n  text-align: left;\n}\n\n/*# sourceMappingURL=modal.vue.map */", map: {"version":3,"sources":["/Users/xubowen/Documents/git/exp/vue-project/src/ui/modal/modal.vue","modal.vue"],"names":[],"mappings":"AA8DA;EACA,cAAA;EACA,UAAA;EACA,WAAA;EACA,2BAAA;AC7DA;AD+DA;EACA,UAAA;EACA,WAAA;EACA,2BAAA;AC7DA;AD+DA;EACA,2BAAA;EACA,uCAAA;AC7DA;AD8DA;EACA,2BAAA;EACA,0BAAA;AC5DA;AD6DA;EACA,eAAA;EACA,MAAA;EACA,SAAA;EACA,OAAA;EACA,QAAA;EACA,2BAAA;EACA,6BAAA;AC1DA;AD2DA;EACA,2BAAA;EACA,4BAAA;ACxDA;AD0DA;EACA,OAAA;EACA,sBAAA;ACvDA;ADwDA;EACA,gBAAA;ACrDA;ADsDA;EACA,sBAAA;EACA,qBAAA;ACnDA;ADoDA;EACA,gBAAA;ACjDA;;AAEA,oCAAoC","file":"modal.vue","sourcesContent":["<template>\n  <div :class=\"{ modal: true, 'is-active': !!this.value }\">\n    <div class=\"modal-background\" @click=\"clickMask\"></div>\n    <div class=\"modal-card shadow\" :style=\"{ top }\">\n      <header class=\"modal-card-head\">\n        <p class=\"modal-card-title\">{{ title }}</p>\n        <button class=\"delete\" aria-label=\"close\" @click=\"close\"></button>\n      </header>\n      <section class=\"modal-card-body\">\n        <slot></slot>\n      </section>\n      <footer class=\"modal-card-foot\">\n        <slot name=\"footer\">\n          <Button type=\"default\" @on-click=\"close\">取消</Button>\n          <Button type=\"primary\" @on-click=\"close\">确定</Button>\n        </slot>\n      </footer>\n    </div>\n  </div>\n</template>\n<script>\nexport default {\n  props: {\n    value: Boolean,\n    title: String,\n    top: {\n      type: String,\n      default() {\n        return \"50px\"\n      }\n    },\n    clickMaskHide: {\n      type: Boolean,\n      default() {\n        return true\n      }\n    }\n  },\n  data() {\n    return {\n      currentValue: this.value\n    }\n  },\n  watch: {\n    value(n) {\n      this.currentValue = n\n    }\n  },\n  methods: {\n    close() {\n      this.currentValue = false\n      this.$emit(\"input\", false)\n    },\n    clickMask() {\n      if (this.clickMaskHide) {\n        this.close()\n      }\n    }\n  }\n}\n</script>\n<style lang=\"sass\" scoped>\n.modal\n  display: block\n  opacity: 0\n  z-index: -1\n  transition: all 0.2s linear\n  // transform: translateY(-80px)\n  &.is-active\n      opacity: 1\n      z-index: 40\n      transition: all 0.2s linear\n      // transform: translateY(0px)\n      .modal-background\n        transition: all 0.2s linear\n        background-color: rgba(35,45,65,.7)\n      .modal-card\n        transition: all 0.2s linear\n        transform: translateY(0px)\n.modal-background\n  position: fixed\n  top: 0\n  bottom: 0\n  left: 0\n  right: 0\n  transition: all 0.2s linear\n  background-color: transparent\n.modal-card\n   transition: all 0.2s linear\n   transform: translateY(-80px)\n.modal-card-foot\n  div\n    flex: 1\n    justify-content: right\n.modal-card-body\n  text-align: left\n.modal-card-head,.modal-card-foot\n  background-color: #fff\n  border-color: #eff3f7\n.modal-card-title\n   text-align: left\n</style>\n",".modal {\n  display: block;\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.2s linear;\n}\n.modal.is-active {\n  opacity: 1;\n  z-index: 40;\n  transition: all 0.2s linear;\n}\n.modal.is-active .modal-background {\n  transition: all 0.2s linear;\n  background-color: rgba(35, 45, 65, 0.7);\n}\n.modal.is-active .modal-card {\n  transition: all 0.2s linear;\n  transform: translateY(0px);\n}\n\n.modal-background {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  transition: all 0.2s linear;\n  background-color: transparent;\n}\n\n.modal-card {\n  transition: all 0.2s linear;\n  transform: translateY(-80px);\n}\n\n.modal-card-foot div {\n  flex: 1;\n  justify-content: right;\n}\n\n.modal-card-body {\n  text-align: left;\n}\n\n.modal-card-head, .modal-card-foot {\n  background-color: #fff;\n  border-color: #eff3f7;\n}\n\n.modal-card-title {\n  text-align: left;\n}\n\n/*# sourceMappingURL=modal.vue.map */"]}, media: undefined });
 
     };
     /* scoped */
-    const __vue_scope_id__ = "data-v-1fffc050";
+    const __vue_scope_id__$3 = "data-v-1fffc050";
     /* module identifier */
-    const __vue_module_identifier__ = undefined;
+    const __vue_module_identifier__$3 = undefined;
     /* functional template */
-    const __vue_is_functional_template__ = false;
+    const __vue_is_functional_template__$3 = false;
     /* style inject SSR */
     
     /* style inject shadow dom */
     
 
     
-    const __vue_component__ = /*#__PURE__*/normalizeComponent(
-      { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
-      __vue_inject_styles__,
-      __vue_script__,
-      __vue_scope_id__,
-      __vue_is_functional_template__,
-      __vue_module_identifier__,
+    const __vue_component__$3 = /*#__PURE__*/normalizeComponent(
+      { render: __vue_render__$2, staticRenderFns: __vue_staticRenderFns__$2 },
+      __vue_inject_styles__$3,
+      __vue_script__$3,
+      __vue_scope_id__$3,
+      __vue_is_functional_template__$3,
+      __vue_module_identifier__$3,
       false,
       createInjector,
       undefined,
       undefined
     );
 
-  const newInstance = () => {
+  const newInstance$1 = () => {
     if (Vue__default["default"].prototype.$modal) {
       return;
     }
@@ -482,7 +482,7 @@
       },
 
       render(h) {
-        return h(__vue_component__, {
+        return h(__vue_component__$3, {
           on: {
             input: n => {
               this.show = n;
@@ -525,18 +525,432 @@
   }; // 在Vue.use(Modal)时,构造
 
 
-  __vue_component__.install = Vue => {
-    newInstance();
-    Vue.component("Modal", __vue_component__);
+  __vue_component__$3.install = Vue => {
+    newInstance$1();
+    Vue.component("Modal", __vue_component__$3);
   };
+
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+
+  var script$2 = {
+    provide() {
+      return {
+        Dropdown: this
+      };
+    },
+    props: {
+      value: String
+    },
+    watch: {
+      value(n) {
+        this.currentValue = n;
+      }
+    },
+    data() {
+      return {
+        active: false,
+        currentValue: this.value
+      };
+    },
+    methods: {
+      toggleActive() {
+        this.active = !this.active;
+      },
+      closeDropdown() {
+        this.active = false;
+      },
+      triggerClick(name) {
+        this.currentValue = name;
+        this.$emit("input", name);
+        this.toggleActive();
+        this.$emit("on-change", name);
+      }
+    }
+  };
+
+  /* script */
+  const __vue_script__$2 = script$2;
+
+  /* template */
+  var __vue_render__$1 = function () {
+    var _vm = this;
+    var _h = _vm.$createElement;
+    var _c = _vm._self._c || _h;
+    return _c(
+      "div",
+      {
+        directives: [
+          {
+            name: "clickout",
+            rawName: "v-clickout",
+            value: _vm.closeDropdown,
+            expression: "closeDropdown",
+          },
+        ],
+        staticClass: "dropdown",
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "dropdown-trigger", on: { click: _vm.toggleActive } },
+          [_vm._t("default")],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { class: { "dropdown-menu": true, "is-active": this.active } },
+          [_c("div", { staticClass: "dropdown-content" }, [_vm._t("content")], 2)]
+        ),
+      ]
+    )
+  };
+  var __vue_staticRenderFns__$1 = [];
+  __vue_render__$1._withStripped = true;
+
+    /* style */
+    const __vue_inject_styles__$2 = function (inject) {
+      if (!inject) return
+      inject("data-v-5675df40_0", { source: ".dropdown-menu[data-v-5675df40] {\n  display: block;\n  opacity: 0;\n  top: 0;\n  z-index: -1;\n  transition: all 0.2s linear;\n}\n.dropdown-menu.is-active[data-v-5675df40] {\n  opacity: 1;\n  top: 100%;\n  z-index: 1;\n  transition: all 0.2s linear;\n}\na.dropdown-item.is-active[data-v-5675df40] {\n  background-color: #00d1b2;\n}\n\n/*# sourceMappingURL=dropdown.vue.map */", map: {"version":3,"sources":["/Users/xubowen/Documents/git/exp/vue-project/src/ui/dropdown/dropdown.vue","dropdown.vue"],"names":[],"mappings":"AAoDA;EACA,cAAA;EACA,UAAA;EACA,MAAA;EACA,WAAA;EACA,2BAAA;ACnDA;ADoDA;EACA,UAAA;EACA,SAAA;EACA,UAAA;EACA,2BAAA;AClDA;ADmDA;EACA,yBAAA;AChDA;;AAEA,uCAAuC","file":"dropdown.vue","sourcesContent":["<template>\n  <div class=\"dropdown\" v-clickout=\"closeDropdown\">\n    <div class=\"dropdown-trigger\" @click=\"toggleActive\">\n      <!--触发的元素-->\n      <slot></slot>\n    </div>\n    <div :class=\"{ 'dropdown-menu': true, 'is-active': this.active }\">\n      <div class=\"dropdown-content\">\n        <!--真实的下拉内容-->\n        <slot name=\"content\"></slot>\n      </div>\n    </div>\n  </div>\n</template>\n<script>\nexport default {\n  provide() {\n    return {\n      Dropdown: this\n    };\n  },\n  props: {\n    value: String\n  },\n  watch: {\n    value(n) {\n      this.currentValue = n;\n    }\n  },\n  data() {\n    return {\n      active: false,\n      currentValue: this.value\n    };\n  },\n  methods: {\n    toggleActive() {\n      this.active = !this.active;\n    },\n    closeDropdown() {\n      this.active = false;\n    },\n    triggerClick(name) {\n      this.currentValue = name;\n      this.$emit(\"input\", name);\n      this.toggleActive();\n      this.$emit(\"on-change\", name);\n    }\n  }\n};\n</script>\n<style lang=\"sass\" scoped>\n.dropdown-menu\n  display: block\n  opacity: 0\n  top: 0\n  z-index: -1\n  transition: all 0.2s linear\n  &.is-active\n      opacity: 1\n      top: 100%\n      z-index: 1\n      transition: all 0.2s linear\na.dropdown-item.is-active\n  background-color: #00d1b2\n</style>\n",".dropdown-menu {\n  display: block;\n  opacity: 0;\n  top: 0;\n  z-index: -1;\n  transition: all 0.2s linear;\n}\n.dropdown-menu.is-active {\n  opacity: 1;\n  top: 100%;\n  z-index: 1;\n  transition: all 0.2s linear;\n}\n\na.dropdown-item.is-active {\n  background-color: #00d1b2;\n}\n\n/*# sourceMappingURL=dropdown.vue.map */"]}, media: undefined });
+
+    };
+    /* scoped */
+    const __vue_scope_id__$2 = "data-v-5675df40";
+    /* module identifier */
+    const __vue_module_identifier__$2 = undefined;
+    /* functional template */
+    const __vue_is_functional_template__$2 = false;
+    /* style inject SSR */
+    
+    /* style inject shadow dom */
+    
+
+    
+    const __vue_component__$2 = /*#__PURE__*/normalizeComponent(
+      { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
+      __vue_inject_styles__$2,
+      __vue_script__$2,
+      __vue_scope_id__$2,
+      __vue_is_functional_template__$2,
+      __vue_module_identifier__$2,
+      false,
+      createInjector,
+      undefined,
+      undefined
+    );
+
+  var DropdownItem = {
+    inject: ["Dropdown"],
+    props: {
+      name: String,
+      active: Boolean
+    },
+
+    render(h) {
+      return h("a", {
+        on: {
+          click: () => {
+            this.Dropdown.triggerClick(this.name);
+          }
+        },
+        class: {
+          "dropdown-item": true,
+          "is-active": this.active || this.Dropdown.currentValue === this.name
+        }
+      }, this.$slots.default);
+    }
+
+  };
+
+  var Dropdown = {
+    install(Vue) {
+      Vue.component("Dropdown", __vue_component__$2);
+      Vue.component("DropdownItem", DropdownItem);
+    }
+
+  };
+
+  var script$1 = {
+    props: {
+      name: String,
+      size: {
+        type: [String, Number],
+        default() {
+          return 14;
+        }
+      }
+    },
+    render(h) {
+      return h("i", {
+        class: {
+          fa: true,
+          [`fa-${this.name}`]: this.name
+        },
+        style: {
+          fontSize: this.size + "px"
+        }
+      });
+    }
+  };
+
+  /* script */
+  const __vue_script__$1 = script$1;
+
+  /* template */
+
+    /* style */
+    const __vue_inject_styles__$1 = undefined;
+    /* scoped */
+    const __vue_scope_id__$1 = undefined;
+    /* module identifier */
+    const __vue_module_identifier__$1 = undefined;
+    /* functional template */
+    const __vue_is_functional_template__$1 = undefined;
+    /* style inject */
+    
+    /* style inject SSR */
+    
+    /* style inject shadow dom */
+    
+
+    
+    const __vue_component__$1 = /*#__PURE__*/normalizeComponent(
+      {},
+      __vue_inject_styles__$1,
+      __vue_script__$1,
+      __vue_scope_id__$1,
+      __vue_is_functional_template__$1,
+      __vue_module_identifier__$1,
+      false,
+      undefined,
+      undefined,
+      undefined
+    );
+
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+
+  var script = {
+    name: "Message",
+    props: {
+      value: Boolean,
+      text: String,
+      type: String
+    },
+    computed: {
+      classes() {
+        return {
+          message: true,
+          [`is-${this.mapper[this.type]}`]: this.type,
+          active: this.active
+        };
+      }
+    },
+    data() {
+      return {
+        mapper: {
+          success: "success",
+          error: "danger",
+          warning: "warning",
+          info: "info"
+        },
+        active: this.value
+      };
+    },
+    watch: {
+      value(n) {
+        this.active = n;
+      }
+    },
+    methods: {
+      handleClick() {
+        this.active = false;
+        this.$emit("input", false);
+      }
+    }
+  };
+
+  /* script */
+  const __vue_script__ = script;
+
+  /* template */
+  var __vue_render__ = function () {
+    var _vm = this;
+    var _h = _vm.$createElement;
+    var _c = _vm._self._c || _h;
+    return _c("article", { class: _vm.classes }, [
+      _c("div", { staticClass: "message-header" }, [
+        _c("p", { staticStyle: { color: "#fff" } }, [_vm._v(_vm._s(_vm.text))]),
+        _vm._v(" "),
+        _c("button", {
+          staticClass: "delete",
+          attrs: { "aria-label": "delete" },
+          on: { click: _vm.handleClick },
+        }),
+      ]),
+    ])
+  };
+  var __vue_staticRenderFns__ = [];
+  __vue_render__._withStripped = true;
+
+    /* style */
+    const __vue_inject_styles__ = function (inject) {
+      if (!inject) return
+      inject("data-v-655c183a_0", { source: ".message[data-v-655c183a] {\n  display: inline-block;\n  position: absolute;\n  width: 200px;\n  transition: all 0.2s linear;\n  left: 0;\n  right: 0;\n  top: 0;\n  opacity: 0;\n  margin: auto;\n  z-index: -1;\n  transform: translateY(-42px);\n}\n.message.active[data-v-655c183a] {\n  transition: all 0.2s linear;\n  top: 50px;\n  opacity: 1;\n  z-index: 99;\n  transform: translateY(0px);\n}\n.message-header[data-v-655c183a] {\n  border-radius: 4px;\n}\n\n/*# sourceMappingURL=message.vue.map */", map: {"version":3,"sources":["/Users/xubowen/Documents/git/exp/vue-project/src/ui/message/message.vue","message.vue"],"names":[],"mappings":"AAkDA;EACA,qBAAA;EACA,kBAAA;EACA,YAAA;EACA,2BAAA;EACA,OAAA;EACA,QAAA;EACA,MAAA;EACA,UAAA;EACA,YAAA;EACA,WAAA;EACA,4BAAA;ACjDA;ADkDA;EACA,2BAAA;EACA,SAAA;EACA,UAAA;EACA,WAAA;EACA,0BAAA;AChDA;ADiDA;EACA,kBAAA;AC/CA;;AAEA,sCAAsC","file":"message.vue","sourcesContent":["<template>\n  <article :class=\"classes\">\n    <div class=\"message-header\">\n      <p style=\"color: #fff\">{{ text }}</p>\n      <button class=\"delete\" aria-label=\"delete\" @click=\"handleClick\"></button>\n    </div>\n  </article>\n</template>\n<script>\nexport default {\n  name: \"Message\",\n  props: {\n    value: Boolean,\n    text: String,\n    type: String\n  },\n  computed: {\n    classes() {\n      return {\n        message: true,\n        [`is-${this.mapper[this.type]}`]: this.type,\n        active: this.active\n      };\n    }\n  },\n  data() {\n    return {\n      mapper: {\n        success: \"success\",\n        error: \"danger\",\n        warning: \"warning\",\n        info: \"info\"\n      },\n      active: this.value\n    };\n  },\n  watch: {\n    value(n) {\n      this.active = n;\n    }\n  },\n  methods: {\n    handleClick() {\n      this.active = false;\n      this.$emit(\"input\", false);\n    }\n  }\n};\n</script>\n<style lang=\"sass\" scoped>\n.message\n  display: inline-block\n  position: absolute\n  width: 200px\n  transition: all 0.2s linear\n  left: 0\n  right: 0\n  top: 0\n  opacity: 0\n  margin: auto\n  z-index: -1\n  transform: translateY(-42px)\n  &.active\n      transition: all 0.2s linear\n      top: 50px\n      opacity: 1\n      z-index: 99\n      transform: translateY(0px)\n  &-header\n    border-radius: 4px\n</style>\n",".message {\n  display: inline-block;\n  position: absolute;\n  width: 200px;\n  transition: all 0.2s linear;\n  left: 0;\n  right: 0;\n  top: 0;\n  opacity: 0;\n  margin: auto;\n  z-index: -1;\n  transform: translateY(-42px);\n}\n.message.active {\n  transition: all 0.2s linear;\n  top: 50px;\n  opacity: 1;\n  z-index: 99;\n  transform: translateY(0px);\n}\n.message-header {\n  border-radius: 4px;\n}\n\n/*# sourceMappingURL=message.vue.map */"]}, media: undefined });
+
+    };
+    /* scoped */
+    const __vue_scope_id__ = "data-v-655c183a";
+    /* module identifier */
+    const __vue_module_identifier__ = undefined;
+    /* functional template */
+    const __vue_is_functional_template__ = false;
+    /* style inject SSR */
+    
+    /* style inject shadow dom */
+    
+
+    
+    const __vue_component__ = /*#__PURE__*/normalizeComponent(
+      { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
+      __vue_inject_styles__,
+      __vue_script__,
+      __vue_scope_id__,
+      __vue_is_functional_template__,
+      __vue_module_identifier__,
+      false,
+      createInjector,
+      undefined,
+      undefined
+    );
+
+  const newInstance = () => {
+    if (Vue__default["default"].prototype.$message) {
+      return;
+    }
+
+    const Instance = new Vue__default["default"]({
+      data() {
+        return {
+          show: false,
+          text: "",
+          type: ""
+        };
+      },
+
+      render(h) {
+        return h(__vue_component__, {
+          on: {
+            input: n => {
+              this.show = n;
+            }
+          },
+          props: {
+            text: this.text,
+            value: this.show,
+            type: this.type
+          }
+        });
+      }
+
+    }); // 先挂载到body下面去
+
+    const component = Instance.$mount();
+    document.body.appendChild(component.$el);
+
+    const showMessgae = ({
+      text,
+      type
+    }) => {
+      // 如果当前已经出现了
+      if (Instance.show) {
+        Instance.show = false; // 延迟100毫米在打开
+
+        setTimeout(() => {
+          Instance.text = text;
+          Instance.show = true;
+          Instance.type = type;
+        }, 100);
+      } else {
+        Instance.text = text;
+        Instance.show = true;
+        Instance.type = type;
+      }
+    }; // 在Vue原型上暴露一个$modal方法 方法包含三个参数
+
+
+    Vue__default["default"].prototype.$message = showMessgae;
+
+    Vue__default["default"].prototype.$message.success = text => {
+      showMessgae({
+        text,
+        type: "success"
+      });
+    };
+
+    Vue__default["default"].prototype.$message.error = text => {
+      showMessgae({
+        text,
+        type: "error"
+      });
+    };
+
+    Vue__default["default"].prototype.$message.warning = text => {
+      showMessgae({
+        text,
+        type: "warning"
+      });
+    };
+
+    Vue__default["default"].prototype.$message.info = text => {
+      showMessgae({
+        text,
+        type: "info"
+      });
+    };
+  }; // 这里就不暴露组件了
+
+
+  var MessageComponent = {
+    install: () => {
+      newInstance();
+    }
+  }; //  暴露出方法
+
+  function Message(config) {
+    Vue__default["default"].prototype.$message(config);
+  }
 
   // 记得把main.js这个删了
 
-  __vue_component__$1.types = types; // import Modal from "./modal/modal.vue";
+  __vue_component__$4.types = types; // import Modal from "./modal/modal.vue";
 
   const components = {
-    Button: __vue_component__$1,
-    Modal: __vue_component__
+    Button: __vue_component__$4,
+    Modal: __vue_component__$3,
+    // 这里是带有install的对象
+    MessageComponent,
+    Dropdown,
+    Icon: __vue_component__$1
   }; // 提供install函数，这样就能Vue.use
 
   function install(Vue) {
@@ -559,8 +973,11 @@
     install
   };
 
-  exports.Button = __vue_component__$1;
-  exports.Modal = __vue_component__;
+  exports.Button = __vue_component__$4;
+  exports.Dropdown = Dropdown;
+  exports.Icon = __vue_component__$1;
+  exports.Message = Message;
+  exports.Modal = __vue_component__$3;
   exports["default"] = index;
 
   Object.defineProperty(exports, '__esModule', { value: true });
