@@ -1,9 +1,14 @@
 {
   "name": "cat-design-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/cat-design.umd.js",
   "module": "dist/cat-design.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuchangjunjx/cat-design-plus.git"
+  },
+  "homepage": "https://github.com/xuchangjunjx/cat-design-plus",
   "scripts": {
     "build": "rollup --config ./rollup.config.js"
   },
