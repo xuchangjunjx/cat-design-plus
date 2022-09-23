@@ -1,18 +1,26 @@
 // 记得把main.js这个删了
 import "./style/index.sass";
+import "./style/css/font-awesome.css";
 import directives from "./directives";
 import Button, { types } from "./button/button.vue";
 // 赋给Button 不然就丢了 或者直接把type写在组件里
 Button.types = types;
-
 // import Modal from "./modal/modal.vue";
 import Modal from "./modal/index";
-// 将Button再暴露出来
-export { Button, Modal };
+import Dropdown from "./dropdown";
+import Icon from "./icon/icon.vue";
+// 将这两兄弟分开
+import { default as MessageComponent, Message } from "./message/index";
+// 此处的Message只是一个函数
+export { Button, Modal, Message, Dropdown, Icon };
 // 临时用
 const components = {
   Button,
-  Modal
+  Modal,
+  // 这里是带有install的对象
+  MessageComponent,
+  Dropdown,
+  Icon
 };
 // 提供install函数，这样就能Vue.use
 function install(Vue) {

@@ -23,6 +23,18 @@ const routes = [
     name: "Modal",
     component: () =>
       import(/* webpackChunkName: "modal" */ "../views/modal.vue")
+  },
+  {
+    path: "/message",
+    name: "message",
+    component: () =>
+      import(/* webpackChunkName: "modal" */ "../views/message.vue")
+  },
+  {
+    path: "/dropdown",
+    name: "dropdown",
+    component: () =>
+      import(/* webpackChunkName: "modal" */ "../views/dropdown.vue")
   }
 ];
 

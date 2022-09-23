@@ -1,5 +1,5 @@
 export default {
-  name: "click-out",
+  name: "clickout",
   // eslint-disable-next-line
   bind(el, binding, vnode) {
     function documentHandler(e) {

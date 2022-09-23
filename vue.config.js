@@ -6,14 +6,14 @@ const webpackConfig = () => {
     optimization: {
       splitChunks: {
         cacheGroups: {
-          components: {
-            name: "chunk-ui",
-            test: /[\\/]src\/ui[\\/]/,
-            chunks: "all",
-            priority: 6,
-            reuseExistingChunk: true,
-            enforce: true
-          },
+          // components: {
+          //   name: "chunk-ui",
+          //   test: /[\\/]src\/ui[\\/]/,
+          //   chunks: "all",
+          //   priority: 6,
+          //   reuseExistingChunk: true,
+          //   enforce: true
+          // },
           runtimeChunk: {
             name: "manifest"
           }

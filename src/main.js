@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "@/styles/main.sass";
+
 import catDesign from "@/ui";
 
 // import catDesign from "../cat-design/cat-design.umd";
